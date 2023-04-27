@@ -1,18 +1,21 @@
+import styles from "./styles/header.module.css";
+import logo from "./images/favicon.jpg";
+
 const Header = () => {
     return (
-        <nav className="navigation">
+        <nav className={`${styles["navigation"]}`}>
             {/* eslint-disable-next-line */}
-            <ul className="nav-bar" role={"list"}>
-                <img className="nav-item-logo" src="./favicon.jpg" alt="logo" />
-                <li className="nav-item"><a href="/">Catalog news</a></li>
-                <li className="nav-item"><a href="/">IT Jobs</a></li>
-                <li className="nav-item"><a href="/">About us</a></li>
-                <li className="nav-item"><a href="/">Contact us</a></li>
-                <li className="nav-item"><a href="/">Coming soon</a></li>
-                <div className="search-bar">
+            <ul className={`${styles["nav-bar"]}`} role={"list"}>
+                <img className={`${styles["nav-item-logo"]}`} src={logo} alt="logo" />
+                <li className={`${styles["nav-item"]}`}><a href="/">Catalog news</a></li>
+                <li className={`${styles["nav-item"]}`}><a href="/">IT Jobs</a></li>
+                <li className={`${styles["nav-item"]}`}><a href="/">About us</a></li>
+                <li className={`${styles["nav-item"]}`}><a href="/">Contact us</a></li>
+                <li className={`${styles["nav-item"]}`}><a href="/">Coming soon</a></li>
+                <div className={`${styles["search-bar"]}`}>
                     <input type="text" placeholder="Search.." />
-                    <button className="search-btn">
-                        <i className="fas fa-search" />
+                    <button className={`${styles["search-btn"]}`}>
+                        <i className={`${styles["fas fa-search"]}`} />
                         Search
                     </button>
                 </div>
