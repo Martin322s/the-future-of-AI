@@ -15,7 +15,7 @@ const Header = () => {
                 <div className={`${styles["search-bar"]}`}>
                     <input type="text" placeholder="Search.." />
                     <button className={`${styles["search-btn"]}`}>
-                        <i className={`${styles["fas fa-search"]}`} />
+                        <i className="fas fa-search" />
                         Search
                     </button>
                 </div>

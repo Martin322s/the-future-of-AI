@@ -18,14 +18,21 @@
 .nav-bar li a {
     color: white;
     text-decoration: none;
+    transition: background-color 0.2s ease;
+    transition: text-decoration 0.2s ease;
+    border-radius: 40px;
 }
 
 .nav-bar li {
     margin-right: 5px;
     padding: 5px 20px;
-    transition: transform 2s ease;
     font-size: 28px;
     cursor: pointer;
+    text-decoration-color: #4fe2c1;
+    transition: background-color 0.2s ease;
+    transition: text-decoration 0.2s ease;
+    border-radius: 40px;
+    font-weight: 600;
 }
 
 .nav-bar li:hover {
@@ -49,6 +56,8 @@
     background-color: #374886;
     color: white;
     border: 1px solid white;
+    transition: background-color 0.2s ease;
+    font-weight: 600;
 }
 
 .search-btn:hover {
