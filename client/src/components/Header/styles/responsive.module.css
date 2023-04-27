@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    .navigation {
+        padding-bottom: 20px;
+    }
+    
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-bar {
+        padding-bottom: 20px;
+    }
+}

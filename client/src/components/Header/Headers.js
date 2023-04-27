@@ -1,11 +1,12 @@
 import styles from "./styles/header.module.css";
+import responsive from "./styles/responsive.module.css";
 import logo from "./images/favicon.jpg";
 
 const Header = () => {
     return (
-        <nav className={`${styles["navigation"]}`}>
+        <nav className={`${styles["navigation"]} ${responsive["navigation"]}`}>
             {/* eslint-disable-next-line */}
-            <ul className={`${styles["nav-bar"]}`} role={"list"}>
+            <ul className={`${styles["nav-bar"]} ${responsive["nav-bar"]}`} role={"list"}>
                 <img className={`${styles["nav-item-logo"]}`} src={logo} alt="logo" />
                 <li className={`${styles["nav-item"]}`}><a href="/">Catalog news</a></li>
                 <li className={`${styles["nav-item"]}`}><a href="/">IT Jobs</a></li>
