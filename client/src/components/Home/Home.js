@@ -20,7 +20,7 @@ const Home = () => {
                     Latest developments in the field of machine learning:
                 </h1>
                 <p className={`${styles["update-info"]}`}>
-                    recent developments in machine learning include advancements in natural
+                    Recent developments in machine learning include advancements in natural
                     language processing, reinforcement learning, explainable AI, federated learning,
                     and meta-learning. These developments are enabling machines to process and understand
                     human-like language, learn to play games at superhuman levels, improve transparency
