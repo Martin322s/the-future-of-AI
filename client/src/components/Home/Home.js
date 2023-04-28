@@ -1,6 +1,9 @@
+import styles from "./styles/home.module.css";
+import logo from "./images/handshake.png";
+
 const Home = () => {
     return (
-        <h1>Home</h1>
+        <img className={`${styles["backgr-img"]}`}src={logo} alt="background" />
     );
 };
 
