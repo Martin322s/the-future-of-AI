@@ -1,5 +1,12 @@
+.home-section {
+    border-bottom: 2px solid black;
+    height: 552px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .backgr-img {
-    height: 650px;
+    height: 550px;
     position: absolute;
     right: 0px;
 }
@@ -14,6 +21,7 @@
     color: #481d51;
     font-size: 25px;
     margin: 0px 0px 0px 100px;
+    width: 680px;
 }
 
 .home-btn {
@@ -33,3 +41,10 @@
     background-color: white;
     cursor: pointer;
 }
+
+.update-heading {
+    text-align: center;
+    font-size: 30px;
+    color: #481d51;
+}
+
