@@ -1,5 +1,6 @@
 import styles from "./styles/home.module.css";
 import logo from "./images/handshake.png";
+import machine from "./images/portada.jpg";
 
 const Home = () => {
     return (
@@ -16,17 +17,20 @@ const Home = () => {
                 <button className={`${styles["home-btn"]}`}>Catalog news</button>
             </section>
             <section className={`${styles["update-section"]}`}>
-                <h1 className={`${styles["update-heading"]}`}>
-                    Latest developments in the field of machine learning:
-                </h1>
-                <p className={`${styles["update-info"]}`}>
-                    Recent developments in machine learning include advancements in natural
-                    language processing, reinforcement learning, explainable AI, federated learning,
-                    and meta-learning. These developments are enabling machines to process and understand
-                    human-like language, learn to play games at superhuman levels, improve transparency
-                    and privacy, and adapt quickly to new tasks with minimal data. These developments have
-                    implications for various fields, including healthcare, robotics, and automation.
-                </p>
+                <img className={`${styles["machine-img"]}`} src={machine} alt="machine" />
+                <div>
+                    <h1 className={`${styles["update-heading"]}`}>
+                        Latest developments in the field of machine learning:
+                    </h1>
+                    <p className={`${styles["update-info"]}`}>
+                        Recent developments in machine learning include advancements in natural
+                        language processing, reinforcement learning, explainable AI, federated learning,
+                        and meta-learning. These developments are enabling machines to process and understand
+                        human-like language, learn to play games at superhuman levels, improve transparency
+                        and privacy, and adapt quickly to new tasks with minimal data. These developments have
+                        implications for various fields, including healthcare, robotics, and automation.
+                    </p>
+                </div>
             </section>
         </>
     );

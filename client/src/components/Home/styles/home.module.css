@@ -2,7 +2,6 @@
     border-bottom: 2px solid black;
     height: 552px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .backgr-img {
@@ -42,15 +41,31 @@
     cursor: pointer;
 }
 
+.update-section {
+    display: flex;
+    gap: 100px;
+    border-bottom: 2px solid black;
+    background-color: #4b2553;
+    margin-bottom: 20px;
+}
+
+.machine-img {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
+
 .update-heading {
     text-align: center;
     font-size: 30px;
-    color: #481d51;
+    color: #848181;
+    margin-top: 20px;
 }
 
 .update-info {
-    width: 1300px;
+    width: 800px;
     text-align: center;
     margin: auto;
     font-size: 20px;
+    color: white;
 }
