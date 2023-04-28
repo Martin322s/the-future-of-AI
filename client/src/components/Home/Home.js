@@ -1,28 +1,29 @@
 import styles from "./styles/home.module.css";
 import logo from "./images/handshake.png";
 import machine from "./images/portada.jpg";
+import responsive from "./styles/responsive.module.css";
 
 const Home = () => {
     return (
         <>
-            <section className={`${styles["home-section"]}`}>
-                <img className={`${styles["backgr-img"]}`} src={logo} alt="background" />
-                <h1 className={`${styles["home-heading"]}`}>Artificial Intelligence</h1>
-                <p className={`${styles["home-subheading"]}`}>
+            <section className={`${styles["home-section"]} ${responsive["home-section"]}`}>
+                <img className={`${styles["backgr-img"]} ${responsive["backgr-img"]}`} src={logo} alt="background" />
+                <h1 className={`${styles["home-heading"]} ${responsive["home-heading"]}`}>Artificial Intelligence</h1>
+                <p className={`${styles["home-subheading"]} ${responsive["home-subheading"]}`}>
                     Stay Up-to-Date with the Latest AI News and Developments.
                     Our newsletter is dedicated to providing you with the latest news, insights,
                     and analysis on the world of artificial intelligence. With AI rapidly transforming
                     every industry, keeping up with the latest developments is more important than ever.
                 </p>
-                <button className={`${styles["home-btn"]}`}>Catalog news</button>
+                <button className={`${styles["home-btn"]} ${responsive["home-btn"]}`}>Catalog news</button>
             </section>
-            <section className={`${styles["update-section"]}`}>
-                <img className={`${styles["machine-img"]}`} src={machine} alt="machine" />
+            <section className={`${styles["update-section"]} ${responsive["update-section"]}`}>
+                <img className={`${styles["machine-img"]} ${responsive["machine-img"]}`} src={machine} alt="machine" />
                 <div>
-                    <h1 className={`${styles["update-heading"]}`}>
+                    <h1 className={`${styles["update-heading"]} ${responsive["update-heading"]}`}>
                         Latest developments in the field of machine learning:
                     </h1>
-                    <p className={`${styles["update-info"]}`}>
+                    <p className={`${styles["update-info"]} ${responsive["update-info"]}`}>
                         Recent developments in machine learning include advancements in natural
                         language processing, reinforcement learning, explainable AI, federated learning,
                         and meta-learning. These developments are enabling machines to process and understand
