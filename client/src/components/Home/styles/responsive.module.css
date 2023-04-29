@@ -80,4 +80,15 @@
         width: 370px;
         margin-left: 20px;
     }
+
+    .latest-updates {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+        gap: 20px;
+    }
+
+    .article-parag {
+        width: 240px;
+    }
 }

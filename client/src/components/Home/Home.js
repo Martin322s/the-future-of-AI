@@ -59,31 +59,31 @@ const Home = () => {
                     alt="machine"
                 />
             </section>
-            <h1 className={`${styles["latest-heading"]}`}>Latest news about AI...</h1>
-            <section className={`${styles["latest-updates"]}`}>
-                <article className={`${styles["article-update"]}`}>
-                    <img className={`${styles["article-img"]}`} src={expert} alt="article-img" />
-                    <h1 className={`${styles["article-heading"]}`}>Heading</h1>
-                    <p className={`${styles["article-parag"]}`}>
-                        afdsfdfgdfhgdfg
+            <h1 className={`${styles["latest-heading"]} ${responsive["latest-heading"]}`}>Latest news about AI...</h1>
+            <section className={`${styles["latest-updates"]} ${responsive["latest-updates"]}`}>
+                <article className={`${styles["article-update"]} ${responsive["article-update"]}`}>
+                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={expert} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>Heading</h1>
+                    <p className={`${styles["article-parag"]} ${responsive["article-parag"]}`}>
+                        AI Artificial Intelligence Logo in hands. Artificial Intelligence and Machine Learning
                     </p>
-                    <a>Learn more..</a>
+                    <a href="/">Learn more..</a>
                 </article>
-                <article className={`${styles["article-update"]}`}>
-                    <img className={`${styles["article-img"]}`} src={expert} alt="article-img" />
-                    <h1 className={`${styles["article-heading"]}`}>Heading</h1>
-                    <p className={`${styles["article-parag"]}`}>
-                        afdsfdfgdfhgdfg
+                <article className={`${styles["article-update"]} ${responsive["article-update"]}`}>
+                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={expert} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>Heading</h1>
+                    <p className={`${styles["article-parag"]} ${responsive["article-parag"]}`}>
+                        AI Artificial Intelligence Logo in hands. Artificial Intelligence and Machine Learning
                     </p>
-                    <a>Learn more..</a>
+                    <a href="/">Learn more..</a>
                 </article>
-                <article className={`${styles["article-update"]}`}>
-                    <img className={`${styles["article-img"]}`} src={expert} alt="article-img" />
-                    <h1 className={`${styles["article-heading"]}`}>Heading</h1>
-                    <p className={`${styles["article-parag"]}`}>
-                        afdsfdfgdfhgdfg
+                <article className={`${styles["article-update"]} ${responsive["article-update"]}`}>
+                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={expert} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>Heading</h1>
+                    <p className={`${styles["article-parag"]} ${responsive["article-parag"]}`}>
+                        AI Artificial Intelligence Logo in hands. Artificial Intelligence and Machine Learning
                     </p>
-                    <a>Learn more..</a>
+                    <a href="/">Learn more..</a>
                 </article>
             </section>
         </>

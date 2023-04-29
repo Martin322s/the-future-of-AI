@@ -119,9 +119,40 @@
 
 .article-img {
     width: 250px;
-    height: 200px;
+    height: 180px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 .article-update {
     border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    padding-bottom: 15px;
+}
+
+.article-heading {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.article-parag {
+    margin-left: 5px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.article-update a {
+    margin-left: 5px;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 5px 10px;
+    color: white;
+    background-color: #4b2553;
+    border-radius: 5px;
+}
+
+.article-update a:hover {
+    color: black;
+    background-color: whitesmoke;
 }
