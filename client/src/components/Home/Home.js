@@ -16,7 +16,7 @@ const Home = () => {
                     and analysis on the world of artificial intelligence. With AI rapidly transforming
                     every industry, keeping up with the latest developments is more important than ever.
                 </p>
-                <button className={`${styles["home-btn"]} ${responsive["home-btn"]}`}>Catalog news</button>
+                <a className={`${styles["home-btn"]} ${responsive["home-btn"]}`}>Catalog news</a>
             </section>
             <section className={`${styles["update-section"]} ${responsive["update-section"]}`}>
                 <img className={`${styles["machine-img"]} ${responsive["machine-img"]}`} src={machine} alt="machine" />
@@ -58,6 +58,33 @@ const Home = () => {
                     } src={expert}
                     alt="machine"
                 />
+            </section>
+            <h1 className={`${styles["latest-heading"]}`}>Latest news about AI...</h1>
+            <section className={`${styles["latest-updates"]}`}>
+                <article className={`${styles["article-update"]}`}>
+                    <img className={`${styles["article-img"]}`} src={expert} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]}`}>Heading</h1>
+                    <p className={`${styles["article-parag"]}`}>
+                        afdsfdfgdfhgdfg
+                    </p>
+                    <a>Learn more..</a>
+                </article>
+                <article className={`${styles["article-update"]}`}>
+                    <img className={`${styles["article-img"]}`} src={expert} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]}`}>Heading</h1>
+                    <p className={`${styles["article-parag"]}`}>
+                        afdsfdfgdfhgdfg
+                    </p>
+                    <a>Learn more..</a>
+                </article>
+                <article className={`${styles["article-update"]}`}>
+                    <img className={`${styles["article-img"]}`} src={expert} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]}`}>Heading</h1>
+                    <p className={`${styles["article-parag"]}`}>
+                        afdsfdfgdfhgdfg
+                    </p>
+                    <a>Learn more..</a>
+                </article>
             </section>
         </>
     );
