@@ -20,7 +20,7 @@ const Home = () => {
             </section>
             <section className={`${styles["update-section"]} ${responsive["update-section"]}`}>
                 <img className={`${styles["machine-img"]} ${responsive["machine-img"]}`} src={machine} alt="machine" />
-                <div>
+                <article>
                     <h1 className={`${styles["update-heading"]} ${responsive["update-heading"]}`}>
                         Latest developments in the field of machine learning:
                     </h1>
@@ -32,19 +32,12 @@ const Home = () => {
                         and privacy, and adapt quickly to new tasks with minimal data. These developments have
                         implications for various fields, including healthcare, robotics, and automation.
                     </p>
-                </div>
+                </article>
             </section>
             <section className={`${styles["expert-section"]} ${responsive["expert-section"]}`}>
-                <img
-                    className={`
-                    ${styles["machine-img"]} 
-                    ${responsive["machine-img"]}`
-                    } src={expert}
-                    alt="machine"
-                />
-                <div>
+                <article>
                     <h1 className={`${styles["expert-heading"]} ${responsive["expert-heading"]}`}>
-                        Expert Opinions About The Future Of Human-Level Artificial Intelligence
+                        Expert Opinions About The Future Of Human-Level AI
                     </h1>
                     <p className={`${styles["expert-info"]} ${responsive["expert-info"]}`}>
                         Many artificial intelligence experts believe there is a real chance that
@@ -55,11 +48,16 @@ const Home = () => {
                         facts hidden about artificial intelligence. Experts believe that AI can compete with
                         human intelligence. However, artificial intelligence surpassing our own intelligence
                         sounds like sci-fi stuff. With that in mind, it becomes extra important to understand
-                        what experts in the field of AI think about such scenarios. Let us understand the
-                        future of AI from experts in this newsletter, along with some other facts about
-                        emerging tech.
+                        what experts in the field of AI think about such scenarios.
                     </p>
-                </div>
+                </article>
+                <img
+                    className={`
+                    ${styles["expert-img"]} 
+                    ${responsive["expert-img"]}`
+                    } src={expert}
+                    alt="machine"
+                />
             </section>
         </>
     );
