@@ -88,6 +88,10 @@
         gap: 20px;
     }
 
+    .article-heading {
+        height: 160px;
+    }
+
     .article-parag {
         width: 240px;
     }

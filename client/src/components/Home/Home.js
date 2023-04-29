@@ -2,6 +2,9 @@ import styles from "./styles/home.module.css";
 import logo from "./images/handshake.png";
 import machine from "./images/portada.jpg";
 import expert from "./images/expert.jpg";
+import first from "./images/first.jpg";
+import second from "./images/second.jpg";
+import third from "./images/third.jpg";
 import responsive from "./styles/responsive.module.css";
 
 const Home = () => {
@@ -62,28 +65,47 @@ const Home = () => {
             <h1 className={`${styles["latest-heading"]} ${responsive["latest-heading"]}`}>Latest news about AI...</h1>
             <section className={`${styles["latest-updates"]} ${responsive["latest-updates"]}`}>
                 <article className={`${styles["article-update"]} ${responsive["article-update"]}`}>
-                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={expert} alt="article-img" />
-                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>Heading</h1>
+                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={first} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>
+                        Machine learning expert Jordan bemoans use of AI
+                    </h1>
                     <p className={`${styles["article-parag"]} ${responsive["article-parag"]}`}>
-                        AI Artificial Intelligence Logo in hands. Artificial Intelligence and Machine Learning
+                        A pioneer in machine learning has argued that the technology is best placed to augment human intelligence.
                     </p>
-                    <a href="/">Learn more..</a>
+                    <a
+                        href="https://www.artificialintelligence-news.com/2021/04/06/machine-learning-expert-jordan-bemoans-usage-of-ai-as-catch-all-term/"
+                        target="_blank"
+                    >
+                        Learn more..
+                    </a>
                 </article>
                 <article className={`${styles["article-update"]} ${responsive["article-update"]}`}>
-                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={expert} alt="article-img" />
-                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>Heading</h1>
+                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={second} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>
+                        Medical chatbot using OpenAI's GPT-3
+                    </h1>
                     <p className={`${styles["article-parag"]} ${responsive["article-parag"]}`}>
-                        AI Artificial Intelligence Logo in hands. Artificial Intelligence and Machine Learning
+                        We're used to medical chatbots giving dangerous advice, but one based on OpenAI's GPT-3 took it much further.
                     </p>
-                    <a href="/">Learn more..</a>
+                    <a
+                        href="https://www.artificialintelligence-news.com/2020/10/28/medical-chatbot-openai-gpt3-patient-kill-themselves/"
+                        target="_blank"
+                    >
+                        Learn more..
+                    </a>
                 </article>
                 <article className={`${styles["article-update"]} ${responsive["article-update"]}`}>
-                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={expert} alt="article-img" />
-                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>Heading</h1>
+                    <img className={`${styles["article-img"]} ${responsive["article-img"]}`} src={third} alt="article-img" />
+                    <h1 className={`${styles["article-heading"]} ${responsive["article-heading"]}`}>Microsoft's AI chatbot is 'unhinged' and wants to be human</h1>
                     <p className={`${styles["article-parag"]} ${responsive["article-parag"]}`}>
-                        AI Artificial Intelligence Logo in hands. Artificial Intelligence and Machine Learning
+                        Early testers of Microsoft's new AI chatbot have complained of receiving numerous “unhinged” messages.
                     </p>
-                    <a href="/">Learn more..</a>
+                    <a
+                        href="https://www.artificialintelligence-news.com/2023/02/16/microsoft-ai-chatbot-unhinged-wants-to-be-human/"
+                        target="_blank"
+                    >
+                        Learn more..
+                    </a>
                 </article>
             </section>
         </>
