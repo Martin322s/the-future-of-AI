@@ -56,4 +56,28 @@
     .update-info {
         width: 370px;
     }
+
+    .expert-section {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+        padding-bottom: 25px;
+    }
+
+    .expert-img {
+        margin: 0px;
+        width: 380px;
+        margin: 10px 15px 10px 15px;
+    }
+
+    .expert-heading {
+        font-size: 25px;
+        width: 390px;
+        margin-left: 5px;
+    }
+
+    .expert-info {
+        width: 370px;
+        margin-left: 20px;
+    }
 }
