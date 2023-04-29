@@ -19,7 +19,7 @@ const Home = () => {
                     and analysis on the world of artificial intelligence. With AI rapidly transforming
                     every industry, keeping up with the latest developments is more important than ever.
                 </p>
-                <a className={`${styles["home-btn"]} ${responsive["home-btn"]}`}>Catalog news</a>
+                <a className={`${styles["home-btn"]} ${responsive["home-btn"]}`} href="/">Catalog news</a>
             </section>
             <section className={`${styles["update-section"]} ${responsive["update-section"]}`}>
                 <img className={`${styles["machine-img"]} ${responsive["machine-img"]}`} src={machine} alt="machine" />
@@ -75,6 +75,7 @@ const Home = () => {
                     <a
                         href="https://www.artificialintelligence-news.com/2021/04/06/machine-learning-expert-jordan-bemoans-usage-of-ai-as-catch-all-term/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Learn more..
                     </a>
@@ -90,6 +91,7 @@ const Home = () => {
                     <a
                         href="https://www.artificialintelligence-news.com/2020/10/28/medical-chatbot-openai-gpt3-patient-kill-themselves/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Learn more..
                     </a>
@@ -103,6 +105,7 @@ const Home = () => {
                     <a
                         href="https://www.artificialintelligence-news.com/2023/02/16/microsoft-ai-chatbot-unhinged-wants-to-be-human/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Learn more..
                     </a>
