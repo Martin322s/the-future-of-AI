@@ -1,6 +1,7 @@
 import styles from "./styles/home.module.css";
 import logo from "./images/handshake.png";
 import machine from "./images/portada.jpg";
+import expert from "./images/expert.jpg";
 import responsive from "./styles/responsive.module.css";
 
 const Home = () => {
@@ -30,6 +31,33 @@ const Home = () => {
                         human-like language, learn to play games at superhuman levels, improve transparency
                         and privacy, and adapt quickly to new tasks with minimal data. These developments have
                         implications for various fields, including healthcare, robotics, and automation.
+                    </p>
+                </div>
+            </section>
+            <section className={`${styles["expert-section"]} ${responsive["expert-section"]}`}>
+                <img
+                    className={`
+                    ${styles["machine-img"]} 
+                    ${responsive["machine-img"]}`
+                    } src={expert}
+                    alt="machine"
+                />
+                <div>
+                    <h1 className={`${styles["expert-heading"]} ${responsive["expert-heading"]}`}>
+                        Expert Opinions About The Future Of Human-Level Artificial Intelligence
+                    </h1>
+                    <p className={`${styles["expert-info"]} ${responsive["expert-info"]}`}>
+                        Many artificial intelligence experts believe there is a real chance that
+                        human-level AI will be developed within the next decades. Some AI experts even
+                        predict that it will exist much sooner than expected. In 2023, many industries
+                        are already using technology to improve business operations,
+                        understand market trends, and stay competitive. However, there are still a lot of
+                        facts hidden about artificial intelligence. Experts believe that AI can compete with
+                        human intelligence. However, artificial intelligence surpassing our own intelligence
+                        sounds like sci-fi stuff. With that in mind, it becomes extra important to understand
+                        what experts in the field of AI think about such scenarios. Let us understand the
+                        future of AI from experts in this newsletter, along with some other facts about
+                        emerging tech.
                     </p>
                 </div>
             </section>

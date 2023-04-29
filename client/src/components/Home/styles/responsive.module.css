@@ -1,3 +1,52 @@
 @media screen and (max-width: 600px) and (min-width: 250px) {
-    
+    .home-section {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .home-heading {
+        margin: 0px;
+        position: absolute;
+        z-index: 1;
+        font-size: 30px;
+        margin-top: 460px;
+        margin-left: 20px;
+    }
+
+    .home-subheading {
+        position: absolute;
+        z-index: 1;
+        width: 380px;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 500px;
+    }
+
+    .home-btn {
+        margin: 0px;
+        position: absolute;
+        z-index: 1;
+        margin-left: 20px;
+        margin-top: 725px;
+        font-size: 15px;
+    }
+
+    .update-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .machine-img {
+        margin: 0px;
+    }
+
+    .update-heading {
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .update-info {
+        width: 370px;
+    }
 }
