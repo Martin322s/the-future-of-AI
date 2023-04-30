@@ -1,0 +1,23 @@
+.contact-heading {
+    text-align: center;
+    font-size: 35px;
+    color: #481d51;
+    margin-top: 30px;
+}
+
+.contact-form {
+    border: 1px solid black;
+    width: 500px;
+    position: relative;
+    left: 35%;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 60px;
+}
+
+.contact-form textarea {
+    width: 455px;
+}
+
+.contact-form input {
+    width: 455px;
+}
