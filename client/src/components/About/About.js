@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
             <h1 className={`${styles["about-heading"]} ${responsive["about-heading"]}`}>
-                Artificial intelligencs (AI) newsletter
+                Artificial intelligence (AI) newsletter
             </h1>
             <section className={`${styles["about-section"]} ${responsive["about-section"]}`}>
                 <article className={`${styles["what-section"]} ${responsive["what-section"]}`}>
