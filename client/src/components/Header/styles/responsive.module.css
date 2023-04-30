@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) and (min-width: 250px) {
     .navigation {
         padding-bottom: 20px;
+        font-family: 'EB Garamond', serif;
     }
     
     .nav-bar {

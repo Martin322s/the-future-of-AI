@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./styles/header.module.css";
 import responsive from "./styles/responsive.module.css";
 import logo from "./images/favicon.jpg";
@@ -8,11 +9,11 @@ const Header = () => {
             {/* eslint-disable-next-line */}
             <ul className={`${styles["nav-bar"]} ${responsive["nav-bar"]}`} role={"list"}>
                 <img className={`${styles["nav-item-logo"]}`} src={logo} alt="logo" />
-                <li className={`${styles["nav-item"]}`}><a href="/">Catalog news</a></li>
-                <li className={`${styles["nav-item"]}`}><a href="/">IT Jobs</a></li>
-                <li className={`${styles["nav-item"]}`}><a href="/">About us</a></li>
-                <li className={`${styles["nav-item"]}`}><a href="/">Contact us</a></li>
-                <li className={`${styles["nav-item"]}`}><a href="/">Coming soon</a></li>
+                <li className={`${styles["nav-item"]}`}><Link to="/catalog">Catalog news</Link></li>
+                <li className={`${styles["nav-item"]}`}><Link to="/jobs">IT Jobs</Link></li>
+                <li className={`${styles["nav-item"]}`}><Link to="/about">About us</Link></li>
+                <li className={`${styles["nav-item"]}`}><Link to="/contact">Contact us</Link></li>
+                <li className={`${styles["nav-item"]}`}><Link to="/coming">Coming soon</Link></li>
                 <div className={`${styles["search-bar"]}`}>
                     <input type="text" placeholder="Search.." />
                     <button className={`${styles["search-btn"]}`}>
