@@ -3,9 +3,13 @@ import responsive from "./styles/responsive.module.css";
 
 const Contact = () => {
     return (
-        <section>
-            <article>
-                
+        <section className={`${styles["contact"]}`}>
+            <article className={`${styles["info"]}`}>
+                <h3>Phone:</h3>
+                <p>+359 877040853</p>
+                <p>Martin Sofroniev</p>
+                <h3>Address:</h3>
+                <p>Sofia, Mladost 4, bul. Hristo Botev 35, Str.</p>
             </article>
             <article>
                 <h1 className={`${styles["contact-heading"]} ${responsive["contact-heading"]}`}>Contact us</h1>
