@@ -7,6 +7,8 @@
     border: 2px solid black;
     padding: 20px 10px 20px 10px;
     margin-left: 30px;
+    color: white;
+    background-color: #481d51;
 }
 
 .contact-heading {
@@ -20,9 +22,9 @@
     border: 1px solid black;
     width: 500px;
     position: relative;
-    left: 35%;
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 60px;
+    left: 5%;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 60px 60px 60px;
 }
 
 .contact-form textarea {
@@ -31,4 +33,10 @@
 
 .contact-form input {
     width: 455px;
+}
+
+.user-info {
+    width: 500px;
+    position: relative;
+    right: 0px;
 }
