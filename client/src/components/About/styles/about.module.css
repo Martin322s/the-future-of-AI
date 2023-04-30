@@ -1,3 +1,43 @@
+.about-section{
+    font-family: 'EB Garamond', serif;
+}
+
 .about-heading {
     text-align: center;
+    color: #481d51;
+    font-size: 70px;
+    border-bottom: 2px solid black;
+}
+
+.what-section {
+    border-bottom: 2px solid black;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 15px;
+}
+
+.what-section h1 {
+    font-size: 40px;
+    margin-left: 30px;
+    color: #481d51;
+    font-weight: 600;
+}
+
+.what-section p {
+    width: 800px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.history-section {
+    background-color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.history-section h1 {
+    color: #481d51;
+    font-weight: 600;
+    font-size: 40px;
 }
