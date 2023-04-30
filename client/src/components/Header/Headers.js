@@ -8,10 +8,10 @@ const Header = () => {
         <nav className={`${styles["navigation"]} ${responsive["navigation"]}`}>
             {/* eslint-disable-next-line */}
             <ul className={`${styles["nav-bar"]} ${responsive["nav-bar"]}`} role={"list"}>
-                <img className={`${styles["nav-item-logo"]}`} src={logo} alt="logo" />
+                <Link to="/"><img className={`${styles["nav-item-logo"]}`} src={logo} alt="logo" /></Link>
                 <li className={`${styles["nav-item"]}`}><Link to="/catalog">Catalog news</Link></li>
                 <li className={`${styles["nav-item"]}`}>
-                    <Link 
+                    <Link
                         to="https://dev.bg/?gclid=CjwKCAjwo7iiBhAEEiwAsIxQEYeT58sn0kqbhi1hk1WC7wHP_S1u6FooL5YhIYYJtTW24nwOpNMcmBoCBIAQAvD_BwE"
                         target="_blank"
                     >
@@ -21,13 +21,6 @@ const Header = () => {
                 <li className={`${styles["nav-item"]}`}><Link to="/about">About us</Link></li>
                 <li className={`${styles["nav-item"]}`}><Link to="/contact">Contact us</Link></li>
                 <li className={`${styles["nav-item"]}`}><Link to="/coming">Coming soon</Link></li>
-                <div className={`${styles["search-bar"]}`}>
-                    <input type="text" placeholder="Search.." />
-                    <button className={`${styles["search-btn"]}`}>
-                        <i className="fas fa-search" />
-                        Search
-                    </button>
-                </div>
             </ul>
         </nav>
     );
