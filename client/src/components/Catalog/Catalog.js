@@ -3,6 +3,8 @@ import responsive from "./styles/responsive.module.css";
 import ai from "./images/ai-one.jpg";
 import two from "./images/ai-two.jpg";
 import brain from "./images/brain.jpg";
+import think from "./images/think.jpg";
+import kids from "./images/kids.jpg";
 
 const Catalog = () => {
     return (
@@ -58,7 +60,7 @@ const Catalog = () => {
                     </div>
                 </article>
                 <article className={`${styles["what-section"]} ${responsive["what-section"]}`}>
-                    <img className={`${styles["ai-img"]} ${responsive["ai-img"]}`} src={ai} alt="ai" />
+                    <img className={`${styles["ai-img"]} ${responsive["ai-img"]}`} src={think} alt="ai" />
                     <div>
                         <h1>Workers are secretly using ChatGPT, AI and it will pose big risks for tech leaders</h1>
                         <p>
@@ -79,21 +81,19 @@ const Catalog = () => {
                 <article className={`${styles["what-section"]} ${responsive["what-section"]}`}>
                     <img className={`${styles["ai-img"]} ${responsive["ai-img"]}`} src={ai} alt="ai" />
                     <div>
-                        <h1>Artificial intelligence predicts the price of Ethereum</h1>
+                        <h1>AI and your kids: Is this new tech terrifying or a helpful tool?</h1>
                         <p>
-                            Artificial intelligence (AI) refers to the simulation of human intelligence by
-                            software-coded heuristics. Nowadays this code is prevalent in everything from
-                            cloud-based, enterprise applications to consumer apps and even embedded firmware.
-                            The year 2022 brought AI into the mainstream through widespread familiarity with
-                            applications of Generative Pre-Training Transformer. The most popular application
-                            is OpenAI's ChatGPT. The widespread fascination with ChatGPT made it synonymous
-                            with AI in the minds of most consumers. However, it represents only a small portion
-                            of the ways that AI technology is being used today.
+                            "With algorithms like TikTok and Facebook, it tends to feed back to you 
+                            things it already knows you are interested in.  There's potential concerns 
+                            for radicalization of people there, because it sorts you into boxes with 
+                            people it 'thinks' are like you," says Dawes, who was co-editor of a collection 
+                            of essays examining technology through an intersectional feminist lens entitled 
+                            Gender, Sex and Tech!: An Intersectional Feminist Guide.
                         </p>
                     </div>
                 </article>
                 <article className={`${styles["what-section"]} ${responsive["what-section"]}`}>
-                    <img className={`${styles["ai-img"]} ${responsive["ai-img"]}`} src={ai} alt="ai" />
+                    <img className={`${styles["ai-img"]} ${responsive["ai-img"]}`} src={kids} alt="ai" />
                     <div>
                         <h1>Artificial intelligence predicts the price of Ethereum</h1>
                         <p>
