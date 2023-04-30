@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) and (min-width: 250px) {
+    .what-section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .what-section p {
+        width: 400px;
+    }
+
+    .about-heading {
+        font-size: 50px;
+    }
+
+    .terms-heading {
+        font-size: 20px;
+    }
+}

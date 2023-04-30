@@ -8,7 +8,7 @@ const About = () => {
                 Artificial intelligencs (AI) newsletter
             </h1>
             <section className={`${styles["about-section"]} ${responsive["about-section"]}`}>
-                <article className={`${styles["what-section"]}`}>
+                <article className={`${styles["what-section"]} ${responsive["what-section"]}`}>
                     <h1>1. What Is Artificial Intelligence (AI)?</h1>
                     <p>
                         Artificial intelligence (AI) refers to the simulation of human intelligence by
@@ -21,7 +21,7 @@ const About = () => {
                         of the ways that AI technology is being used today.
                     </p>
                 </article>
-                <article className={`${styles["history-section"]}`}>
+                <article className={`${styles["history-section"]} ${responsive["history-section"]}`}>
                     <h1>2. A Brief History of Artificial Intelligence</h1>
                     <p>
                         Here's a brief timeline of the past six decades of how AI evolved from its inception.<br />
@@ -41,7 +41,7 @@ const About = () => {
                         only 27 seconds, which is 120 times faster than other methods.<br />
                     </p>
                 </article>
-                <h1>Read all 
+                <h1 className={`${styles["terms-heading"]} ${responsive["terms-heading"]}`}>Read all 
                     <a 
                         href="https://www.artificialintelligence-news.com/privacy-policy/" 
                         target="_blank"
