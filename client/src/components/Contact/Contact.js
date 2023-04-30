@@ -3,8 +3,8 @@ import responsive from "./styles/responsive.module.css";
 
 const Contact = () => {
     return (
-        <section className={`${styles["contact"]}`}>
-            <article className={`${styles["user-info"]}`}>
+        <section className={`${styles["contact"]} ${responsive["contact"]}`}>
+            <article className={`${styles["user-info"]} ${responsive["user-info"]}`}>
                 <ul>
                     <li>Access the website's "Contact Us" page: This is usually found in the website's main navigation menu.</li>
                     <li>Select the preferred method of contact: The website may offer multiple ways to contact them, such as email, phone,or a contact form. The user should choose the method that is most convenient for them.</li>
@@ -32,7 +32,7 @@ const Contact = () => {
                     <input type="submit" value="Send message" />
                 </form>
             </article>
-            <article className={`${styles["info"]}`}>
+            <article className={`${styles["info"]} ${responsive["info"]}`}>
                 <h3>Phone:</h3>
                 <p>+359 877040853</p>
                 <p>Martin Sofroniev</p>
