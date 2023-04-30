@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
             <h1 className={`${styles["about-heading"]} ${responsive["about-heading"]}`}>
-                All topics about artificial intelligence
+                Artificial intelligencs (AI) newsletter
             </h1>
             <section className={`${styles["about-section"]} ${responsive["about-section"]}`}>
                 <article className={`${styles["what-section"]}`}>
@@ -41,6 +41,14 @@ const About = () => {
                         only 27 seconds, which is 120 times faster than other methods.<br />
                     </p>
                 </article>
+                <h1>Read all 
+                    <a 
+                        href="https://www.artificialintelligence-news.com/privacy-policy/" 
+                        target="_blank"
+                    >
+                        Terms & conditions for Privacy Policy
+                    </a>
+                </h1>
             </section >
         </>
     );
