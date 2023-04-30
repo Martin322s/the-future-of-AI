@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./styles/about.module.css";
 import responsive from "./styles/responsive.module.css";
 
@@ -41,13 +42,8 @@ const About = () => {
                         only 27 seconds, which is 120 times faster than other methods.<br />
                     </p>
                 </article>
-                <h1 className={`${styles["terms-heading"]} ${responsive["terms-heading"]}`}>Read all 
-                    <a 
-                        href="https://www.artificialintelligence-news.com/privacy-policy/" 
-                        target="_blank"
-                    >
-                        Terms & conditions for Privacy Policy
-                    </a>
+                <h1 className={`${styles["terms-heading"]} ${responsive["terms-heading"]}`}>
+                    Read all: <Link to="https://www.artificialintelligence-news.com/privacy-policy/" target="_blank">Terms & conditions for Privacy Policy</Link>
                 </h1>
             </section >
         </>
